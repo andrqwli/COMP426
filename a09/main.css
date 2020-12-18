@@ -1,0 +1,80 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    padding: 1em 0 1em 0;
+    background-color: darkslategray;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tweetView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    padding: .5em .5em .5em .5em;
+    margin: .25em 0 .25em 0;
+    color: white;
+    min-width: 450px;
+    max-width: 450px;
+}
+
+.buttonPanel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.newTweet {
+    width: 150px;
+    height: 45px;
+    font-size: 1.5em;
+}
+
+textarea {
+    resize: none;
+    height: 125px;
+    width: 300px;
+}
+
+.Panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.unlike {
+    background-color: lightblue;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tweetBody {
+    display: block;
+    padding: .5em;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
